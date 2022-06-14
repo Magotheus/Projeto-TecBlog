@@ -1,0 +1,93 @@
+/*limpar formatação padrão*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-size: 1em;
+	font-family: "Trebuchet MS",Helvetica,sans-serif;
+	background: #e6e6e6;
+}
+
+/*header-nav*/
+#header{
+	background: #f7b600;
+	text-align: center;
+	padding: 20px;
+}
+#logo , #nav{
+	padding: 8px 12px;
+}
+h1{
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+.branco{
+	color: #fff;
+}
+#nav a{                         /*seletor de descendente*/
+	padding: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #fff;
+}
+#nav a:hover{
+	background-color: #fff;
+	color: orange;
+}
+
+/*fim-header-nav*/
+
+/*article*/
+#article{
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+}
+/*fim-article*/
+
+/*section-aside*/
+#postagens, #lateral{
+	background: #fff;
+}
+#postagens{
+	width: 660px;
+	float: left;
+}
+.post{
+	padding: 20px;
+	margin-bottom: 20px;
+}
+h2{
+	color: #f7b600;
+}
+#lateral{
+	width: 240px;
+	float: right;
+}
+
+.cont-lateral{
+	padding: 10px;
+	margin-bottom: 20px;
+}
+h3{
+	color: #565656;
+	background: #ccc;
+	padding: 5px;
+}
+.post-lateral{
+	font-size: 0.8em;
+	padding: 5px;
+}
+
+
+/*fim-section-aside*/
+
+/*footer*/
+#rodape{
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #ccc;
+}
+/*fim-footer*/
